@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C1B5B9B1A87B5EA0070DB70 /* Seal.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B5B9A1A87B5EA0070DB70 /* Seal.m */; };
+		2C1B5BA11A87B5F90070DB70 /* Penguin.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B5BA01A87B5F90070DB70 /* Penguin.m */; };
 		2CDDC2161A80A0C600D4226E /* Grid.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDDC2151A80A0C600D4226E /* Grid.m */; };
 		2CDDC21C1A80A0DB00D4226E /* Creature.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDDC21B1A80A0DB00D4226E /* Creature.m */; };
 		8392007A18EE8E3300B6C429 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8392007918EE8E3300B6C429 /* GLKit.framework */; };
@@ -72,6 +74,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C1B5B991A87B5EA0070DB70 /* Seal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Seal.h; path = Source/Seal.h; sourceTree = "<group>"; };
+		2C1B5B9A1A87B5EA0070DB70 /* Seal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Seal.m; path = Source/Seal.m; sourceTree = "<group>"; };
+		2C1B5B9F1A87B5F90070DB70 /* Penguin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Penguin.h; sourceTree = "<group>"; };
+		2C1B5BA01A87B5F90070DB70 /* Penguin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Penguin.m; sourceTree = "<group>"; };
 		2CDDC2141A80A0C600D4226E /* Grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Grid.h; path = Source/Grid.h; sourceTree = "<group>"; };
 		2CDDC2151A80A0C600D4226E /* Grid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Grid.m; path = Source/Grid.m; sourceTree = "<group>"; };
 		2CDDC21A1A80A0DB00D4226E /* Creature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Creature.h; sourceTree = "<group>"; };
@@ -153,6 +159,10 @@
 				2CDDC2151A80A0C600D4226E /* Grid.m */,
 				2CDDC21A1A80A0DB00D4226E /* Creature.h */,
 				2CDDC21B1A80A0DB00D4226E /* Creature.m */,
+				2C1B5B991A87B5EA0070DB70 /* Seal.h */,
+				2C1B5B9A1A87B5EA0070DB70 /* Seal.m */,
+				2C1B5B9F1A87B5F90070DB70 /* Penguin.h */,
+				2C1B5BA01A87B5F90070DB70 /* Penguin.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -384,6 +394,8 @@
 				B7378994180767190076A88C /* MainScene.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
 				2CDDC2161A80A0C600D4226E /* Grid.m in Sources */,
+				2C1B5B9B1A87B5EA0070DB70 /* Seal.m in Sources */,
+				2C1B5BA11A87B5F90070DB70 /* Penguin.m in Sources */,
 				2CDDC21C1A80A0DB00D4226E /* Creature.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
